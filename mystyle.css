@@ -1,0 +1,12 @@
+.abc{ 
+     color: pink;
+     font-size: 20px;
+    }
+.def{
+     background-color: gray;
+    }
+/* CSS에 이 부분을 추가하면 완성! */
+* {
+	font-family: 'Stylish', sans-serif;
+	font-family: 'Kirang Haerang', cursive;
+  } /*Stylish 없을시 sans-serif로 보여줌*/

@@ -1,0 +1,26 @@
+//IDEX_MVL를 50이상이면서 서울에서 몇퍼센트인지 구하기
+//변수만들기
+let target_list = all_mise['RealtimeCityAir']['row'];
+
+//전체숫자변수
+all_count=0;
+//
+target_count=0;
+//조건
+for(let i=0; i<target_list.length; i++){
+	all_count++;
+	if(target_list[i]['DEX_MVL']>50){
+	target_count++;
+	}
+}
+//
+let result= target_count/all_count*100;
+//
+result//값44
+
+
+
+
+
+//제이쿼리
+$()
